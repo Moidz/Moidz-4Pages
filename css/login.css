@@ -1,0 +1,140 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: hsl(34, 78%, 93%);
+}
+
+header {
+  height: 34px;
+  padding: 15px;
+  border-bottom: 1px rgba(73, 73, 73, 0.1) solid;
+}
+nav {
+  width: 50%;
+  margin-left: 45%;
+  display: flex;
+  justify-content: space-between;
+}
+header a:link {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-decoration: none;
+  color: white;
+  width: fit-content;
+  padding: 8px 15px;
+  background-color: rgb(10, 10, 10);
+  border-radius: 30px;
+}
+
+header a:hover {
+  background-color: rgb(100, 100, 100);
+}
+
+header a:visited {
+  color: white;
+}
+
+#current {
+  background-color: rgb(100, 100, 100);
+  color: white;
+}
+main {
+    padding-top: 100px;
+  text-align: center;
+  box-sizing: border-box;
+  height: 566px;
+  color: rgb(48, 47, 47);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.container {
+  box-sizing: border-box;
+  font-family: Calibri;
+  border: none;
+  width: 280px;
+  height: 280px;
+  margin: 18px auto 0px;
+  padding-top: 20px;
+  box-shadow: 0px 0px 5px 0px rgb(73, 73, 73);
+  border-radius: 30px;
+  background-image: linear-gradient(
+    to bottom right,
+    bisque,
+    white,
+    bisque,
+    white,
+    bisque
+  );
+}
+
+table {
+  width: 90%;
+  height: 200px;
+  margin: auto;
+  box-sizing: border-box;
+}
+.label {
+  text-align: left;
+  padding-left: 10px;
+  position: relative;
+  top: 6px;
+  font-weight: bold;
+}
+input {
+  padding: 0.5em;
+  width: 93%;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  box-shadow: 0px 0px 2px 1px rgb(73, 73, 73);
+  font-size: 1em;
+  font-family: Calibri;
+  margin: 10px 0px 15px;
+}
+input:hover{
+  background-color: rgba(204, 237, 248, 0.2);
+}
+input:focus{
+  background-color: bisque;
+  box-shadow: 0px 0px 5px 0px rgb(73, 73, 73);
+}
+.btn {
+  color: white;
+  width: fit-content;
+  padding: 8px 15px;
+  background-color: rgb(100, 100, 100);
+  border-radius: 30px;
+  font-size: 1em;
+  border: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  cursor: pointer;
+}
+
+#link{
+    margin-top: 15px;
+    display: flex;
+    float: right;
+}
+#link a:link, #link a:visited {
+    padding: 8px;
+  color: rgb(48, 47, 47);
+}
+
+#link a:hover {
+    color: blue;
+  }
+.btn:hover{
+  background-color: rgb(10, 10, 10);
+}
+header:hover,
+footer:hover {
+  background-color: bisque;
+}
+
+footer {
+  height: 31px;
+  text-align: center;
+  font-size: 12px;
+  border-top: 1px rgba(73, 73, 73, 0.1) solid;
+}

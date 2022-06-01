@@ -1,27 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Iyanuoluwa-Home</title>
-    <link rel="stylesheet" href="/css/index.css">
-</head>
-<body>
-   <header>
-       <nav>
-           <a href="index.html">ABOUT ME</a>
-           <a href="contact.html">CONTACT ME</a>
-           <a href="register.html">REGISTER</a>
-           <a href="login.html">LOG IN</a>
-       </nav>
-   </header>
-   <main>
-       
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Moidz-Login</title>
+    <link rel="stylesheet" href="/css/login.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
         <a href="index.html">ABOUT ME</a>
-   </main>
-   <footer>
-       <p>&copy; 2022 | Designed by Moidz | All Right Reserved.</p>
-   </footer>
-</body>
+        <a href="contact.html">CONTACT ME</a>
+        <a href="register.html">REGISTER</a>
+        <a id="current" href="login.html">LOG IN</a>
+      </nav>
+    </header>
+    <main>
+      <h2>WELCOME BACK!</h2>
+      <div class="container">
+        <form action="#">
+          <table>
+            <tr>
+              <td class="label"><label for="name">E-mail</label></td>
+            </tr>
+            <tr>
+              <td>
+                <input
+                  type="email"
+                  id="mail"
+                  title="e.g abcdef@ghij.com"
+                  required
+                />
+              </td>
+            </tr>
+            <tr>
+                <td class="label"><label for="name">Password</label></td>
+            </tr>
+            <tr>
+                <td>
+                  <input
+                    type="password"
+                    id="password"
+                    pattern="[a-z][A-Z][0-9]"
+                    min="8"
+                    max="10"
+                    required
+                  />
+                </td>
+              </tr>
+              <tr>
+                  <td id="link"><a href="#">Forgot your password?</a>
+                    <button class="btn" type="submit">LOG IN</button></td>
+              </tr>
+          </table>
+        </form>
+      </div>
+    </main>
+    <footer>
+      <p>&copy; 2022 | Designed by Moidz | All Right Reserved.</p>
+    </footer>
+  </body>
 </html>

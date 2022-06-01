@@ -26,7 +26,7 @@ header a:link {
 }
 
 header a:hover {
-  background-color: rgb(73, 73, 73);
+  background-color: rgb(100, 100, 100);
 }
 
 header a:visited {
@@ -97,7 +97,7 @@ input {
 }
 input:hover,
 textarea:hover {
-  background-color: rgba(204, 237, 248, 0.1);
+  background-color: rgba(204, 237, 248, 0.2);
 }
 input:focus,
 textarea:focus {
@@ -119,6 +119,7 @@ footer:hover {
   border: none;
   float: right;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  cursor: pointer;
 }
 
 .btn:hover {
