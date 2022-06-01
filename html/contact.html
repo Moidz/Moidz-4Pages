@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Iyanuoluwa-Contact</title>
+    <link rel="stylesheet" href="/css/contact.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="index.html">ABOUT ME</a>
+        <a id="current" href="contact.html">CONTACT ME</a>
+        <a href="register.html">REGISTER</a>
+        <a href="login.html">LOG IN</a>
+      </nav>
+    </header>
+    <main>
+      <div class="container">
+        <form action="#">
+          <table>
+            <tr>
+              <td class="label"><label for="name">Full Name:</label></td>
+              <td>
+                <input
+                  type="text"
+                  id="name"
+                  title="e.g Firstname Middlename Lastname"
+                  autocapitalize="words"
+                  required
+                />
+              </td>
+            </tr>
+            <tr>
+              <td class="label"><label for="mail">E-mail Address:</label></td>
+              <td>
+                <input
+                  type="email"
+                  id="mail"
+                  title="e.g abcdef@ghij.com"
+                  required
+                />
+              </td>
+            </tr>
+            <tr>
+              <td class="feed" colspan="2">
+                <label for="message">Message:</label>
+              </td>
+            </tr>
+            <tr>
+              <td class="msg" colspan="2">
+                <textarea
+                  name="textme"
+                  id="message"
+                  minlength="20"
+                  maxlength="600"
+                  cols="60"
+                  rows="7"
+                  required
+                >
+Type your message here....</textarea
+                >
+              </td>
+            </tr>
+          </table>
+          <button class="btn" type="submit">SUBMIT</button>
+        </form>
+      </div>
+      <address class="contact">
+        <a href="https://twitter.com/Moidz_" target="_blank"
+          ><i class="fa fa-twitter"></i
+        ></a>
+        <a
+          href="https://m.facebook.com/odelotan.iyanuoluwadorcas"
+          target="_blank"
+          ><i class="fa fa-facebook"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/iyanuoluwa-odelotan-b080a4204"
+          target="_blank"
+          ><i class="fa fa-linkedin"></i
+        ></a>
+        <a href="https://instagram.com/e_yanu_" target="_blank"
+          ><i class="fa fa-instagram"></i
+        ></a>
+        <a href="https://github.com/Moidz" target="_blank"
+          ><i class="fa fa-github"></i
+        ></a>
+      </address>
+    </main>
+    <footer>
+      <p>&copy; 2022 | Designed by Moidz | All Right Reserved.</p>
+    </footer>
+  </body>
+</html>

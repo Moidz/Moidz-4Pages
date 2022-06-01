@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Iyanuoluwa-Register</title>
+    <link rel="stylesheet" href="/css/register.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="index.html">ABOUT ME</a>
+        <a href="contact.html">CONTACT ME</a>
+        <a href="register.html">REGISTER</a>
+        <a href="login.html">LOG IN</a>
+      </nav>
+    </header>
+    <main>
+      <div class="container">
+        <form>
+          <table>
+            <tr>
+              <td colspan="2">
+                <input
+                  type="text"
+                  id="firstname"
+                  placeholder="First Name"
+                  min="3"
+                  max="24"
+                  required
+                />
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2">
+                <input
+                  type="text"
+                  id="lastname"
+                  placeholder="Last Name"
+                  min="3"
+                  max="24"
+                  required
+                />
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2">
+                <input
+                  type="tel"
+                  id="phonenumber"
+                  placeholder="CountryCode-Number e.g +234-0123456789"
+                  pattern="[0-9][-+]"
+                  min="11"
+                  required
+                />
+              </td>
+            </tr>
+            <tr>
+              <td class="genders"><label for="gender">Gender:</label></td>
+              <td class="opt">
+                <select id="gender">
+                  <option value="Male">Male</option>
+                  <option value="Female">Female</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2">
+                <input
+                  type="text"
+                  id="country"
+                  placeholder="Country"
+                  min="3"
+                  max="24"
+                  required
+                />
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2">
+                <input
+                  type="text"
+                  id="state"
+                  placeholder="State/Province"
+                  min="3"
+                  max="24"
+                  required
+                />
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2">
+                <input
+                  type="email"
+                  id="email"
+                  placeholder="E-mail Address"
+                  min="3"
+                  max="24"
+                  required
+                />
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2">
+                <input
+                  type="password"
+                  id="password"
+                  placeholder="Password"
+                  pattern="[a-z][A-Z][0-9]"
+                  title="Your password should have at least one of these;
+                    lowercase letter, uppercase letter, number."
+                  min="8"
+                  max="10"
+                  required
+                />
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2">
+                <input
+                  type="password"
+                  id="password"
+                  placeholder="Confirm Password"
+                  pattern="[a-z][A-Z][0-9]"
+                  title="Ensure it is the same with the one above"
+                  min="8"
+                  max="10"
+                  required
+                />
+              </td>
+            </tr>
+          </table>
+          <button class="btn" type="submit">REGISTER</button>
+        </form>
+      </div>
+      <p>Already have an account? <a href="login.html">LOG IN</a></p>
+    </main>
+    <footer>
+      <p>&copy; 2022 | Designed by Moidz | All Right Reserved.</p>
+    </footer>
+  </body>
+</html>
