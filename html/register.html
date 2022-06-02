@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Moidz-Register</title>
-    <link rel="stylesheet" href="/css/register.css" />
+    <link rel="stylesheet" href="/style.css" />
   </head>
   <body>
     <header>
@@ -16,13 +16,13 @@
         <a href="login.html">LOG IN</a>
       </nav>
     </header>
-    <main>
-      <div class="container">
+    <main class="registermain">
+      <div class="registercontainer">
         <form action="#">
-          <table>
+          <table class="registertable">
             <tr>
               <td colspan="2">
-                <input
+                <input class="registerinput"
                   type="text"
                   id="firstname"
                   placeholder="First Name"
@@ -34,7 +34,7 @@
             </tr>
             <tr>
               <td colspan="2">
-                <input
+                <input class="registerinput"
                   type="text"
                   id="lastname"
                   placeholder="Last Name"
@@ -46,7 +46,7 @@
             </tr>
             <tr>
               <td colspan="2">
-                <input
+                <input class="registerinput"
                   type="tel"
                   id="phonenumber"
                   placeholder="CountryCode-Number e.g +234-0123456789"
@@ -67,7 +67,7 @@
             </tr>
             <tr>
               <td colspan="2">
-                <input
+                <input class="registerinput"
                   type="text"
                   id="country"
                   placeholder="Country"
@@ -79,7 +79,7 @@
             </tr>
             <tr>
               <td colspan="2">
-                <input
+                <input class="registerinput"
                   type="text"
                   id="state"
                   placeholder="State/Province"
@@ -91,7 +91,7 @@
             </tr>
             <tr>
               <td colspan="2">
-                <input
+                <input class="registerinput"
                   type="email"
                   id="email"
                   placeholder="E-mail Address"
@@ -103,7 +103,7 @@
             </tr>
             <tr>
               <td colspan="2">
-                <input
+                <input class="registerinput"
                   type="password"
                   id="password"
                   placeholder="Password"
@@ -118,7 +118,7 @@
             </tr>
             <tr>
               <td colspan="2">
-                <input
+                <input class="registerinput"
                   type="password"
                   id="password"
                   placeholder="Confirm Password"
@@ -131,7 +131,7 @@
               </td>
             </tr>
           </table>
-          <button class="btn" type="submit">REGISTER</button>
+          <button class="registerbtn" type="submit">REGISTER</button>
         </form>
       </div>
       <p>Already have an account? <a href="login.html">LOG IN</a></p>

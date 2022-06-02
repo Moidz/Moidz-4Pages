@@ -37,22 +37,20 @@ a:visited {
   background-color: rgb(100, 100, 100);
   color: white;
 }
-main {
+.registermain {
   text-align: center;
-  box-sizing: border-box;
-  height: 548px;
   color: rgb(48, 47, 47);
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-.container {
+.registercontainer {
   box-sizing: border-box;
   font-family: Calibri;
   border: none;
   width: 360px;
   height: 470px;
-  margin: 18px auto 20px;
+  margin: 18px auto 40px;
   box-shadow: 0px 0px 5px 0px rgb(73, 73, 73);
   padding-top: 10px;
   border-radius: 10px;
@@ -66,7 +64,7 @@ main {
   );
 }
 
-table {
+.registertable {
   text-align: center;
   width: 94%;
   height: 380px;
@@ -88,7 +86,7 @@ select {
   padding-left: 10px;
   text-align: left;
 }
-input {
+.registerinput {
   font: 1em Calibri;
   color: black;
   text-align: center;
@@ -100,12 +98,12 @@ input {
   font-weight: bold;
 }
 
-::placeholder {
+.registerinput::placeholder {
   text-align: center;
   color: rgba(0, 0, 0, 0.4);
 }
 
-.btn {
+.registerbtn {
   color: white;
   width: fit-content;
   padding: 8px 15px;
@@ -119,10 +117,10 @@ input {
   cursor: pointer;
 }
 
-main a:link {
+.registermain a:link {
   background-color: rgb(100, 100, 100);
 }
-.btn:hover,
+.registerbtn:hover,
 main a:hover {
   background-color: rgb(10, 10, 10);
 }
