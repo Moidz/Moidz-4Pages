@@ -15,7 +15,7 @@ nav {
   display: flex;
   justify-content: space-between;
 }
-.contacthead a:link {
+header a:link {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   text-decoration: none;
   color: white;
@@ -25,11 +25,11 @@ nav {
   border-radius: 30px;
 }
 
-.contacthead a:hover {
+header a:hover {
   background-color: rgb(100, 100, 100);
 }
 
-.contacthead a:visited {
+header a:visited {
   color: white;
 }
 
@@ -37,6 +37,60 @@ nav {
   background-color: rgb(100, 100, 100);
   color: white;
 }
+.contactmain {
+  color: rgb(48, 47, 47);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.contactcontainer {
+  border: none;
+  width: 494px;
+  height: 425px;
+  margin: 22px auto 0px;
+  box-shadow: 0px 0px 5px 0px rgb(73, 73, 73);
+  border-radius: 40px;
+  padding-top: 10px;
+  background-image: linear-gradient(
+    to bottom right,
+    bisque,
+    white,
+    bisque,
+    white,
+    bisque
+  );
+}
+.contacttable {
+  width: 94%;
+  height: 300px;
+  margin: 10px auto 30px;
+}
+.contactlabel {
+  text-align: right;
+  padding-right: 10px;
+}
+.feed {
+  text-align: left;
+  padding-left: 46px;
+  padding-top: 10px;
+}
+.msg {
+  text-align: right;
+  padding-right: 5px;
+}
+textarea,
+.contactinput {
+  background: transparent;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  box-shadow: 0px 0px 2px 1px rgb(73, 73, 73);
+  font-size: 1em;
+  font-family: Calibri;
+  padding: 0.8em;
+  margin-bottom: 20px;
+}
+
 .contactmain {
   box-sizing: border-box;
   height: 544px;
@@ -65,7 +119,7 @@ nav {
 .contacttable {
   width: 94%;
   height: 300px;
-  margin: 10px auto 30px;
+  margin: 10px auto 7px;
 }
 .contactlabel {
   text-align: right;
@@ -126,7 +180,7 @@ footer:hover {
   background-color: rgb(10, 10, 10);
 }
 
-.contactinfo{
+.contactinfo {
   box-sizing: border-box;
   display: flex;
   justify-content: space-around;
@@ -140,13 +194,14 @@ footer:hover {
   color: white;
 }
 
-.contact a:link,
-.contact a:visited {
+.contactinfo a:link,
+.contactinfo a:visited {
   color: white;
 }
-.contact a:hover {
+.contactinfo a:hover {
   color: bisque;
 }
+
 footer {
   height: 31px;
   text-align: center;

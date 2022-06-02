@@ -37,8 +37,8 @@ header a:visited {
   background-color: rgb(100, 100, 100);
   color: white;
 }
-main {
-    padding-top: 100px;
+main{
+  padding-top: 100px;
   text-align: center;
   box-sizing: border-box;
   height: 566px;
