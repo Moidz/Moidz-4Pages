@@ -15,7 +15,7 @@ nav {
   display: flex;
   justify-content: space-between;
 }
-header a:link {
+.contacthead a:link {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   text-decoration: none;
   color: white;
@@ -25,19 +25,19 @@ header a:link {
   border-radius: 30px;
 }
 
-header a:hover {
+.contacthead a:hover {
   background-color: rgb(100, 100, 100);
 }
 
-header a:visited {
+.contacthead a:visited {
   color: white;
 }
 
-#current {
+.current {
   background-color: rgb(100, 100, 100);
   color: white;
 }
-main {
+.contactmain {
   box-sizing: border-box;
   height: 544px;
   color: rgb(48, 47, 47);
@@ -45,7 +45,7 @@ main {
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-.container {
+.contactcontainer {
   border: none;
   width: 494px;
   height: 425px;
@@ -62,12 +62,12 @@ main {
     bisque
   );
 }
-table {
+.contacttable {
   width: 94%;
   height: 300px;
   margin: 10px auto 30px;
 }
-.label {
+.contactlabel {
   text-align: right;
   padding-right: 10px;
 }
@@ -81,7 +81,7 @@ table {
   padding-right: 5px;
 }
 textarea,
-input {
+.contactinput {
   background: transparent;
   border: none;
   outline: none;
@@ -91,15 +91,15 @@ input {
   font-family: Calibri;
   padding: 0.8em;
 }
-input {
+.contactinput {
   margin: 10px auto;
   width: 305px;
 }
-input:hover,
+.contactinput:hover,
 textarea:hover {
   background-color: rgba(204, 237, 248, 0.2);
 }
-input:focus,
+.contactinput:focus,
 textarea:focus {
   background-color: bisque;
   box-shadow: 0px 0px 5px 0px rgb(73, 73, 73);
@@ -126,7 +126,7 @@ footer:hover {
   background-color: rgb(10, 10, 10);
 }
 
-.contact {
+.contactinfo{
   box-sizing: border-box;
   display: flex;
   justify-content: space-around;
