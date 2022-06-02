@@ -1,0 +1,164 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: hsl(34, 78%, 93%);
+}
+
+header {
+  height: 34px;
+  padding: 15px;
+  border-bottom: 1px rgba(73, 73, 73, 0.1) solid;
+}
+nav {
+  width: 55%;
+  margin-left: 35%;
+  display: flex;
+  justify-content: space-between;
+}
+a:link,
+h3,
+h4 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-decoration: none;
+  color: white;
+  width: fit-content;
+  padding: 8px 15px;
+  background-color: rgb(10, 10, 10);
+  border-radius: 30px;
+}
+h3,
+h4 {
+  background-color: rgb(121, 120, 120);
+}
+a:hover {
+  background-color: rgb(100, 100, 100);
+}
+
+a:visited {
+  color: white;
+}
+
+.current {
+  background-color: rgb(100, 100, 100);
+  color: white;
+}
+
+main {
+  color: rgb(48, 47, 47);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+/* HOME PAGE */
+figure {
+  margin-top: 100px;
+  margin-left: 100px;
+  width: 50%;
+  text-align: center;
+  font-size: 44px;
+  font-weight: bolder;
+  text-shadow: 3px 2px 3px rgb(145, 143, 143);
+}
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.about {
+  margin-top: 80px;
+  margin-left: 100px;
+  width: 60%;
+  line-height: 1.6em;
+  text-align: justify;
+}
+.container {
+  margin: 80px auto 80px;
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+}
+.card h4 {
+  width: fit-content;
+  margin: 30px auto 20px;
+}
+.card {
+  box-shadow: 0px 0px 8px 1px rgb(73, 73, 73);
+  width: 20%;
+  border-radius: 30px;
+}
+.priority {
+  width: 35%;
+}
+.card:hover,
+header:hover,
+footer:hover {
+  background-color: bisque;
+}
+li {
+  list-style-type: square;
+}
+main .home:link {
+  margin-left: 120px;
+  margin-bottom: 50px;
+  font-size: 24px;
+  padding: 18px 22px;
+}
+/* RESPONSIVENESS FOR HOME PAGE */
+@media screen and (max-width: 770px){
+  body{
+    margin: 0px;
+    padding: 0px;
+  }
+    nav {
+        width: 92%;
+        text-align: center;
+        margin: 0px auto;
+        display: flex;
+        border: 1px red solid;
+        justify-content: space-between;
+      }
+    a:link{
+  padding: 8px 10px;
+  font-size: 0.6em;
+  background-color: rgb(10, 10, 10);
+  border-radius: 30px;
+    }
+  figure {
+    margin: 50px auto 0px;
+    width: 80%;
+    font-size: 24px;
+  }
+  .about {
+    margin: 50px auto 0px;
+    width: 80%;
+    font-size: 1em;
+  }
+  .container {
+    margin-bottom: 50px;
+    align-content: space-between;
+    display: flex;
+    flex-direction: column;
+    height: 750px;
+  }
+  .card h4 {
+    margin: 20px auto;
+  }
+  .card {
+    padding: auto;
+    margin: 0px auto;
+    height: 230px;
+    width: 90%;
+  }
+  main .home:link {
+    margin: 40px 30px;
+    font-size: 20px;
+  }
+}
+footer {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 12px;
+  border-top: 1px rgba(73, 73, 73, 0.1) solid;
+  padding: 4px 0px;
+}
+/* STYLE FOR CONTACT PAGE */
