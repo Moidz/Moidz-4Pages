@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Moidz-Login</title>
-    <link rel="stylesheet" href="/css/login.css" />
+    <link rel="stylesheet" href="/style.css" />
   </head>
   <body>
     <header>
@@ -16,17 +16,17 @@
         <a id="current" href="login.html">LOG IN</a>
       </nav>
     </header>
-    <main>
+    <main class="loginmain">
       <h2>WELCOME BACK!</h2>
-      <div class="container">
+      <div class="logincontainer">
         <form action="#">
-          <table>
+          <table class="logintable">
             <tr>
-              <td class="label"><label for="name">E-mail</label></td>
+              <td class="loginlabel"><label for="name">E-mail</label></td>
             </tr>
             <tr>
               <td>
-                <input
+                <input class="logininput"
                   type="email"
                   id="mail"
                   title="e.g abcdef@ghij.com"
@@ -35,11 +35,11 @@
               </td>
             </tr>
             <tr>
-                <td class="label"><label for="name">Password</label></td>
+                <td class="loginlabel"><label for="name">Password</label></td>
             </tr>
             <tr>
                 <td>
-                  <input
+                  <input class="logininput"
                     type="password"
                     id="password"
                     pattern="[a-z][A-Z][0-9]"
@@ -50,8 +50,8 @@
                 </td>
               </tr>
               <tr>
-                  <td id="link"><a href="#">Forgot your password?</a>
-                    <button class="btn" type="submit">LOG IN</button></td>
+                  <td class="pdlink"><a href="#">Forgot your password?</a>
+                    <button class="loginbtn" type="submit">LOG IN</button></td>
               </tr>
           </table>
         </form>
