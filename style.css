@@ -122,7 +122,6 @@ main .home:link {
     text-align: center;
     margin: 0px auto;
     display: flex;
-    border: 1px red solid;
     justify-content: space-between;
   }
   header a:link {
@@ -295,7 +294,6 @@ footer:hover {
     width: 94%;
     height: 300px;
     margin: 10px auto 5px;
-    border: 1px red solid;
   }
   .contactlabel {
     width: 5%;
