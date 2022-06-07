@@ -179,12 +179,12 @@ footer {
 }
 .contactcontainer {
   border: none;
-  width: 494px;
-  height: 425px;
+  width: 42%;
+  height: 400px;
   margin: 22px auto 0px;
   box-shadow: 0px 0px 5px 0px rgb(73, 73, 73);
   border-radius: 40px;
-  padding-top: 10px;
+  padding-top: 20px;
   background-image: linear-gradient(
     to bottom right,
     bisque,
@@ -195,23 +195,17 @@ footer {
   );
 }
 .contacttable {
-  width: 94%;
+  width: 90%;
   height: 300px;
-  margin: 10px auto 0px;
+  margin: 10px auto;
+  box-sizing: border-box;
 }
 .contactlabel {
   text-align: right;
   padding-right: 10px;
+  width: 30%;
 }
-.feed {
-  text-align: left;
-  padding-left: 46px;
-  padding-top: 10px;
-}
-.msg {
-  padding-top: 10px;
-  padding-left: 130px;
-}
+
 textarea,
 .contactinput {
   background: transparent;
@@ -221,20 +215,21 @@ textarea,
   box-shadow: 0px 0px 2px 1px rgb(73, 73, 73);
   font-size: 1em;
   font-family: Calibri;
+  width: 100%;
+  box-sizing: border-box;
   padding: 0.8em;
   margin-bottom: 20px;
 }
-
+textarea{
+  height: 120px;
+}
 .contactinput {
   margin: 10px auto;
-  width: 267px;
 }
-.contactinput:hover,
-textarea:hover {
-  background-color: rgba(204, 237, 248, 0.2);
+.contactinput:hover{
+  background-color: rgba(204, 237, 248, 0.3);
 }
-.contactinput:focus,
-textarea:focus {
+.contactinput:focus{
   background-color: bisque;
   box-shadow: 0px 0px 5px 0px rgb(73, 73, 73);
 }
@@ -245,13 +240,13 @@ footer:hover {
 .btn {
   color: white;
   width: fit-content;
-  padding: 8px 15px;
+  padding: 8px 18px;
   background-color: rgb(100, 100, 100);
   border-radius: 30px;
   font-size: 1em;
   border: none;
   float: right;
-  margin-right: 40px;
+  margin-right: 35px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   cursor: pointer;
 }
@@ -287,53 +282,28 @@ footer:hover {
   .contactcontainer {
     border: none;
     width: 94%;
-    height: 370px;
+    height: 410px;
     margin-top: 50px;
   }
   .contacttable {
     width: 94%;
-    height: 300px;
-    margin: 10px auto 5px;
   }
-  .contactlabel {
-    width: 5%;
-    padding-right: 5px;
-    font-size: 0.8em;
+  
+  textarea{
+    height: 150px;
   }
-  .feed {
-    padding-left: 2px;
-    font-size: 0.8em;
-  }
-  .msg {
-    padding-left: 20px;
-    text-align: left;
-  }
-  textarea,
-  .contactinput {
-    border-radius: 15px;
-    font-size: 0.8em;
-    padding: 0.8em;
-    margin-bottom: 15px;
-  }
-  .contactinput {
-    margin: 10px auto;
-    width: 92%;
-  }
-  .btn {
-    margin-right: 68%;
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-    cursor: pointer;
-  }
+
   .contactinfo {
     font-size: 2.5em;
     width: 100%;
     height: 70px;
     margin: 80px auto 0px;
   }
+
   .note {
     width: 50%;
     text-align: center;
-    margin: 80px auto 40px;
+    margin: 70px auto 40px;
   }
 }
 
@@ -364,26 +334,12 @@ footer:hover {
 
 .registertable {
   text-align: center;
-  width: 94%;
+  width: 80%;
   height: 380px;
   margin: 10px auto;
 }
 
-select {
-  background: transparent;
-  font-size: 0.9em;
-  font-family: Calibri;
-}
-.genders {
-  width: 40%;
-  font-weight: bold;
-  text-align: right;
-}
-.opt {
-  padding-left: 10px;
-  text-align: left;
-}
-.registerinput {
+.registerinput{
   font: 1em Calibri;
   color: black;
   text-align: center;
@@ -391,14 +347,15 @@ select {
   outline: none;
   border-bottom: 1px solid rgb(73, 73, 73);
   background: transparent;
-  width: 86%;
+  width: 100%;
   font-weight: bold;
 }
 
-.registerinput::placeholder {
+.registerinput::placeholder{
   text-align: center;
   color: rgba(0, 0, 0, 0.4);
 }
+
 
 .registerbtn {
   color: white;
@@ -445,8 +402,8 @@ select {
   box-sizing: border-box;
   font-family: Calibri;
   border: none;
-  width: 280px;
-  height: 280px;
+  width: 25%;
+  height: 290px;
   margin: 18px auto 105px;
   padding-top: 20px;
   box-shadow: 0px 0px 5px 0px rgb(73, 73, 73);
@@ -487,7 +444,7 @@ select {
   margin: 10px 0px 15px;
 }
 .logininput:hover{
-  background-color: rgba(204, 237, 248, 0.2);
+  background-color: rgba(204, 237, 248, 0.3);
 }
 .logininput:focus{
   background-color: bisque;
@@ -506,13 +463,12 @@ select {
 }
 
 .pdlink{
-    margin-top: 15px;
+    margin: 15px 0px 0px 10%;
     display: flex;
-    float: right;
 }
 .pdlink a:link, .pdlink a:visited {
     padding: 8px;
-  color: rgb(48, 47, 47);
+    color: rgb(48, 47, 47);
 }
 
 .pdlink a:hover {
@@ -522,9 +478,21 @@ select {
   background-color: rgb(10, 10, 10);
 }
 
-/* RESONSIVENESS FOR REGISTER PAGE */
+/* RESONSIVENESS FOR LOGIN PAGE */
 @media screen and (max-width: 770px){
   .logincontainer{
-    width: 269px;
+    width: 80%;
+    height: 270px;
+  }
+  .loginbtn{
+    font-size: 0.67em;
+  }
+  .logintable{
+    height: 160px;
+    box-sizing: border-box;
+  }
+  .pdlink{
+    margin: 10px auto 5px;
+    width: fit-content;
   }
 }
