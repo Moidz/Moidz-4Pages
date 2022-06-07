@@ -478,14 +478,17 @@ footer:hover {
   background-color: rgb(10, 10, 10);
 }
 
-/* RESONSIVENESS FOR LOGIN PAGE */
+/* RESPONSIVENESS FOR LOGIN PAGE */
 @media screen and (max-width: 770px){
   .logincontainer{
     width: 80%;
     height: 270px;
   }
   .loginbtn{
-    font-size: 0.67em;
+    font-size: 0.77em;
+  }
+  .inputdata{
+    text-align: center;
   }
   .logintable{
     height: 160px;
